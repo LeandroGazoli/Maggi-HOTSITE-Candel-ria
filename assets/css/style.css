@@ -1,13 +1,11 @@
-:root {
-    --scale: 0.1;
-    --space: 8vmin;
-  }
-  
-  @media (prefers-reduced-motion) {
-    :root {
-      --scale: 0;
-    }
-  }
+body:after{
+    position:absolute; z-index:-1;
+    content: url(/assets/img/jeans.webp) 
+             url(/assets/img/candelaria2.svg) 
+             url(/assets/img/logocandeloariatrans.webp) 
+             url(/assets/img/logocandeloariatrans.webp)
+             url(/assets/img/cavalo.webp);
+}
   
   * {
     box-sizing: border-box;
