@@ -14,21 +14,21 @@ a:hover {
 }
 
 #logocandelariatransparente {
-  background-image: url("/assets/img/logocandeloariatrans.png");
+  background-image: url("/assets/img/logocandeloariatrans.webp");
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
 }
 
 section {
-  background-image: url("/assets/img/cavalo.png");
+  background-image: url("/assets/img/cavalo.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .abertura {
-  background-image: url("/assets/img/jeans.png");
+  background-image: url("/assets/img/jeans.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -241,7 +241,7 @@ h3.line-h1:after {
 
 @media only screen and (max-width: 1000px) {
   section {
-    background-image: url("/assets/img/cavalo.png");
+    background-image: url("/assets/img/cavalo.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -253,13 +253,13 @@ h3.line-h1:after {
     background-repeat: no-repeat;
   }
   #logocandelariatransparente {
-    background-image: url("/assets/img/logocandeloariatrans.png");
+    background-image: url("/assets/img/logocandeloariatrans.webp");
     background-size: 80%;
     background-position: -80px;
     background-repeat: no-repeat;
   }
   .logocandelariatransparente2 {
-    background-image: url(/assets/img/logocandeloariatrans.png);
+    background-image: url(/assets/img/logocandeloariatrans.webp);
     background-size: contain;
     background-position: -90px;
     background-repeat: no-repeat;
