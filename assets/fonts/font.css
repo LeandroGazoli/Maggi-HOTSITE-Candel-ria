@@ -37,7 +37,6 @@
 
 body {
   font-family: "Kirvy Regular" !important;
-  overscroll-behavior: contain;
 }
 
 b {
