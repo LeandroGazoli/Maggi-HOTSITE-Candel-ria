@@ -1,15 +1,10 @@
-# docSlider.js
-docSlider.js is a JavaScript plugin that works without jQuery.  
-Change the web sections to a one-page scroll.  
-It works on modern browser as Chrome, Firefox, Safari, Edge, IE11.
-
 
 ## Demo & Document
-* [Demo Page](https://prjct-samwest.github.io/docSlider/)
-* [Document](https://prjct-samwest.github.io/docSlider/document.html)
+* [Demo Page](#)
+* [Document](#)
 
 
 ## License
-Created by SamWest.  
-Copyright (c) 2020 SamWest.  
-This plugin is released under the MIT License.
+Created by Leandro Gazoli.  
+Copyright (c) 2021 Leandro Gazoli.  
+This site is released under the MIT License.
