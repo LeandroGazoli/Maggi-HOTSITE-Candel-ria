@@ -1,3 +1,17 @@
+:root {
+    --scale: 0.1;
+    --space: 8vmin;
+  }
+  
+  @media (prefers-reduced-motion) {
+    :root {
+      --scale: 0;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
 a {
   text-decoration: none;
 }
@@ -38,6 +52,7 @@ body{
   }
 
 section {
+    position: relative;
   background-image: url("/assets/img/cavalo.webp");
   background-attachment: fixed;
   background-position: center;
