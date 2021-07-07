@@ -1,0 +1,131 @@
+#logocandelaria {
+  background-image: url("/assets/img/candelaria2.svg");
+  background-size: 40%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#logocandelariatransparente {
+  background-image: url("/assets/img/logocandeloariatrans.png");
+  background-size:  contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+section {
+  background-image: url("/assets/img/cavalo.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media only screen and (max-width: 1000px) {
+  section {
+    background-image: url("/assets/img/cavalo.png");
+    background-size: cover;
+    background-position: center center;
+  }
+  #logocandelaria {
+    background-image: url("/assets/img/candelaria2.svg");
+    background-size: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  #logocandelariatransparente {
+    background-image: url("/assets/img/logocandeloariatrans.png");
+    background-size:  60%;
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottomdiv{
+    display: inline-block;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.black-box {
+  background-color: transparent;
+}
+
+section:nth-child(odd){
+    background-color: #eee;
+}
+.inner{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h1.line-h1 {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+h1.line-h1:before,
+h1.line-h1:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+h1.line-h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+h1.line-h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* p */
+
+p.line-p {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+p.line-p:before,
+p.line-p:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 12%;
+}
+p.line-p:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+p.line-p:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+
+
+
+.topo {
+  top: 20px;
+}
+
+.card {
+  width: 150px !important;
+}
+@media only screen and (max-width: 1000px) {
+  .card {
+    width: 120px !important;
+  }
+}
