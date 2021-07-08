@@ -1,0 +1,358 @@
+/* Override UGG site */
+body{
+  /* overflow: hidden; */
+  position: relative;
+  width: 100%;
+  background-color: #2b2b2b;
+  background: url(/assets/img/optimze/webp/jeans-min.webp), #2b2b2b;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #000;
+}
+#main {
+  width: 100%;
+  padding: 0;
+}
+.content-asset p {
+  margin: 0 auto;
+}
+.breadcrumb {
+  display: none;
+}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+#parallax-world-of-ugg .title h1 {
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {
+  padding: 60px;
+  width: 820px;
+  margin: 0 auto;
+  text-align: justify;
+}
+#parallax-world-of-ugg .block-gray {
+  padding: 60px;
+}
+#parallax-world-of-ugg .section-overlay-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.7;
+}
+
+/* Section - Parallax */
+/**************************/
+
+
+#parallax-world-of-ugg #logocandelaria {
+  background-image: url("/assets/img/candelaria2.svg");
+  background-size: 40%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#parallax-world-of-ugg #logocandelariatransparente {
+  background-image: url("/assets/img/logocandeloariatrans.webp");
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh !important;
+  background-attachment: fixed;
+  background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#parallax-world-of-ugg .logocandelariatransparente2 {
+  background-image: url("/assets/img/logocandeloariatrans.webp");
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh !important;
+  background-attachment: fixed;
+  background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  }
+
+#parallax-world-of-ugg .parallax-jeans {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: url(/assets/img/optimze/webp/jeans-min.webp),#2b2b2b;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#parallax-world-of-ugg .parallax-candelaria-text {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh !important;
+  background: url(/assets/img/teste.png);
+  background-attachment: fixed;
+  background-size: auto;
+  -moz-background-size: auto;
+  -webkit-background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+#parallax-world-of-ugg .parallax-cavalo {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(/assets/img/optimze/cavalo-min.png);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#parallax-world-of-ugg .parallax-one {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#parallax-world-of-ugg .parallax-two {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1432163230927-a32e4fd5a326?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#parallax-world-of-ugg .parallax-three {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {
+  border-bottom: 1px solid black;
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {
+    padding: 40px;
+    width: 620px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+    width: 420px;
+  }
+  #parallax-world-of-ugg h2 {
+    font-size: 30px;
+  }
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+  }
+  #parallax-world-of-ugg .parallax-one,
+  #parallax-world-of-ugg .parallax-two,
+  #parallax-world-of-ugg .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {
+    padding: 30px 15px;
+    width: 290px;
+  }
+}
+
+
+
+h1.line-h1 {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+h1.line-h1:before,
+h1.line-h1:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+h1.line-h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+h1.line-h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* p */
+
+p.line-p {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+p.line-p:before,
+p.line-p:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 12%;
+}
+p.line-p:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+p.line-p:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* line */
+
+
+h3.line-h1 {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 1.4em;
+}
+h3.line-h1:before,
+h3.line-h1:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+h3.line-h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+h3.line-h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+.link-a .app-card-link-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0
+}
+
+.link-a {
+  position: relative;
+  border-radius: .25rem
+}
+
+@media only screen and (max-width: 1000px) {
+  #parallax-world-of-ugg #logocandelaria {
+    background-image: url("/assets/img/candelaria2.svg");
+    background-size: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  #parallax-world-of-ugg #logocandelariatransparente {
+    background-image: url("/assets/img/logocandeloariatrans.webp");
+    background-size: 80%;
+    background-position: -80px;
+    background-repeat: no-repeat;
+  }
+  #parallax-world-of-ugg .logocandelariatransparente2 {
+    background-image: url(/assets/img/logocandeloariatrans.webp);
+    background-size: contain;
+    background-position: -90px;
+    background-repeat: no-repeat;
+  }
+  .demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 43%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font: normal 400 20px/1 "Josefin Sans", sans-serif;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+}
+
+.text-justify {
+  text-align: justify !important;
+}

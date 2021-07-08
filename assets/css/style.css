@@ -1,10 +1,11 @@
 body:after{
     position:absolute; z-index:-1;
-    content: url(/assets/img/jeans.webp) 
-             url(/assets/img/candelaria2.svg) 
-             url(/assets/img/logocandeloariatrans.webp) 
-             url(/assets/img/logocandeloariatrans.webp)
-             url(/assets/img/cavalo.webp);
+    display: none;
+    content: url(/assets/img/optimze/webp/jeans.webp) 
+             url(/assets/img/optimze/webp/candelaria2.svg) 
+             url(/assets/img/optimze/webp/logocandeloariatrans.webp) 
+             url(/assets/img/optimze/webp/logocandeloariatrans.webp)
+             url(/assets/img/optimze/webp/cavalo.webp);
 }
   
   * {
@@ -50,7 +51,7 @@ body{
   }
 
 section {
-    position: relative;
+  position: relative;
   background-image: url("/assets/img/cavalo.webp");
   background-attachment: fixed;
   background-position: center;
