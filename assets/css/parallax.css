@@ -1,10 +1,84 @@
+:root {
+  --cinza: #859399 !important;
+}
+
+@font-face {
+  font-family: "Kirvy Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Kirvy Regular"),
+    url("/assets/fonts/Kirvy-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kirvy Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Kirvy Thin"), url("/assets/fonts/Kirvy-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kirvy Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Kirvy Light"),
+    url("/assets/fonts/Kirvy-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kirvy Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Kirvy Bold"), url("/assets/fonts/Kirvy-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GRENDEL BOLD";
+  font-style: normal;
+  font-weight: normal;
+  src: local("GRENDEL BOLD"), url("/assets/fonts/GRENDB__.woff") format("woff");
+}
+
 /* Override UGG site */
-body{
+body {
   /* overflow: hidden; */
   position: relative;
   width: 100%;
+  background-color: rgb(82, 86, 89);
+  background: rgb(82, 86, 89);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #000;
+  font-family: "Kirvy Regular" !important;
+}
+
+b {
+  font-family: "GRENDEL BOLD";
+}
+
+strong {
+  font-family: "GRENDEL BOLD";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "GRENDEL BOLD" !important;
+}
+
+section {
+  margin: 20px 0;
+  position: relative;
+  width: 100%;
   background-color: #2b2b2b;
-  background: url(/assets/img/optimze/webp/jeans-min.webp), #2b2b2b;
+  background: url(/assets/img/optimze/cavalo-min.png);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -13,10 +87,208 @@ body{
   background-position: top center;
   color: #000;
 }
+
 #main {
   width: 100%;
   padding: 0;
 }
+
+#parallax-world-of-ugg .ferradura {
+  background: url(/assets/img/ferradura.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: bottom right;
+}
+.bloco_texto-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.centralizar-externo {
+  position: relative;
+  min-height: 100vh;
+}
+
+.centralizar-interno {
+  position: absolute;
+  top: 50%;
+  /* right: 50%; */
+}
+
+.bg-cinza {
+  background-color: var(--cinza);
+}
+
+.font-size-2-5 {
+  font-size: 2.5em;
+}
+
+.fs-11 {
+  font-size: 11pt;
+}
+.fs-12 {
+  font-size: 12pt;
+}
+.fs-13 {
+  font-size: 13pt;
+}
+.fs-14 {
+  font-size: 14pt;
+}
+.fs-15 {
+  font-size: 15pt;
+}
+.fs-17 {
+  font-size: 17pt;
+}
+.fs-18 {
+  font-size: 18pt;
+}
+.fs-21 {
+  font-size: 21pt;
+}
+.fs-25 {
+  font-size: 25pt;
+}
+.fs-26 {
+  font-size: 26pt;
+}
+.fs-27 {
+  font-size: 27pt;
+}
+.fs-28 {
+  font-size: 28pt;
+}
+.fs-29 {
+  font-size: 29pt;
+}
+.fs-30 {
+  font-size: 30pt;
+}
+.fs-31 {
+  font-size: 31pt;
+}
+.fs-32 {
+  font-size: 32pt;
+}
+.fs-33 {
+  font-size: 33pt;
+}
+.fs-34 {
+  font-size: 34pt;
+}
+.fs-35 {
+  font-size: 35pt;
+}
+.fs-38 {
+  font-size: 38pt;
+}
+
+.imagem_candelaria {
+  width: 41%;
+}
+
+.bloco_texto {
+  width: 180px;
+  border-radius: 3px;
+}
+
+.bloco_texto-geral {
+  width: 100%;
+}
+
+.radius-1 {
+  border-radius: 1px !important;
+}
+.radius-2 {
+  border-radius: 2px !important;
+}
+.radius-3 {
+  border-radius: 3px !important;
+}
+.radius-4 {
+  border-radius: 4px !important;
+}
+.radius-5 {
+  border-radius: 5px !important;
+}
+.radius-6 {
+  border-radius: 6px !important;
+}
+.radius-7 {
+  border-radius: 7px !important;
+}
+.radius-8 {
+  border-radius: 8px !important;
+}
+.radius-9 {
+  border-radius: 9px !important;
+}
+.radius-10 {
+  border-radius: 10px !important;
+}
+.radius-11 {
+  border-radius: 11px !important;
+}
+.radius-12 {
+  border-radius: 12px !important;
+}
+.radius-13 {
+  border-radius: 13px !important;
+}
+.radius-14 {
+  border-radius: 14px !important;
+}
+.radius-15 {
+  border-radius: 15px !important;
+}
+.radius-0 {
+  border-radius: 0px !important;
+}
+.radius-25 {
+  border-radius: 25% !important;
+}
+.radius-50 {
+  border-radius: 50% !important;
+}
+.radius-75 {
+  border-radius: 75% !important;
+}
+.radius-100 {
+  border-radius: 100% !important;
+}
+
+.cavalos-apresentacao img{
+  width: 100%;
+}
+.width-400 {
+  width: 400px;
+}
+.width-500 {
+  width: 500px;
+}
+.width-600 {
+  width: 600px;
+}
+.width-700 {
+  width: 700px;
+}
+.width-800 {
+  width: 800px;
+}
+
+.w-480p {
+  width: 768px;
+}
+
+.text-cinza {
+  color: var(--cinza);
+}
+
 .content-asset p {
   margin: 0 auto;
 }
@@ -60,7 +332,6 @@ body{
 /* Section - Parallax */
 /**************************/
 
-
 #parallax-world-of-ugg #logocandelaria {
   background-image: url("/assets/img/candelaria2.svg");
   background-size: 40%;
@@ -71,10 +342,10 @@ body{
 
 #parallax-world-of-ugg #logocandelariatransparente {
   background-image: url("/assets/img/logocandeloariatrans.webp");
-  overflow: hidden;
+  /* overflow: overlay; */
   position: relative;
   width: 100%;
-  height: 100vh !important;
+  min-height: 100vh !important;
   background-attachment: fixed;
   background-size: contain;
   -moz-background-size: contain;
@@ -85,23 +356,23 @@ body{
 
 #parallax-world-of-ugg .logocandelariatransparente2 {
   background-image: url("/assets/img/logocandeloariatrans.webp");
-  overflow: hidden;
+  /* overflow: overlay; */
   position: relative;
   width: 100%;
-  height: 100vh !important;
+  min-height: 100vh !important;
   background-attachment: fixed;
   background-size: contain;
   -moz-background-size: contain;
   -webkit-background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
-  }
+}
 
 #parallax-world-of-ugg .parallax-jeans {
-  overflow: hidden;
+  /* overflow: overlay; */
   position: relative;
   width: 100%;
-  background: url(/assets/img/optimze/webp/jeans-min.webp),#2b2b2b;
+  background: url(/assets/img/optimze/webp/jeans-min.webp), #2b2b2b;
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -111,12 +382,12 @@ body{
 }
 
 #parallax-world-of-ugg .parallax-candelaria-text {
-  overflow: hidden;
+  /* overflow: overlay; */
   position: relative;
   width: 100%;
-  height: 100vh !important;
+  min-height: 100vh !important;
   background: url(/assets/img/teste.png);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: auto;
   -moz-background-size: auto;
   -webkit-background-size: auto;
@@ -125,7 +396,7 @@ body{
 }
 
 #parallax-world-of-ugg .parallax-cavalo {
-  overflow: hidden;
+  /* overflow: overlay; */
   position: relative;
   width: 100%;
   background-image: url(/assets/img/optimze/cavalo-min.png);
@@ -140,7 +411,7 @@ body{
 #parallax-world-of-ugg .parallax-one {
   padding-top: 200px;
   padding-bottom: 200px;
-  overflow: hidden;
+  /* overflow: overlay; */
   position: relative;
   width: 100%;
   background-image: url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=);
@@ -168,7 +439,7 @@ body{
 #parallax-world-of-ugg .parallax-three {
   padding-top: 200px;
   padding-bottom: 200px;
-  overflow: hidden;
+  /* overflow: overlay; */
   position: relative;
   width: 100%;
   background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=);
@@ -186,39 +457,6 @@ body{
   border-bottom: 1px solid black;
   width: 150px;
   margin: 0 auto;
-}
-
-/* Media Queries */
-/**************************/
-@media screen and (max-width: 959px) and (min-width: 768px) {
-  #parallax-world-of-ugg .block {
-    padding: 40px;
-    width: 620px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #parallax-world-of-ugg .block {
-    padding: 30px;
-    width: 420px;
-  }
-  #parallax-world-of-ugg h2 {
-    font-size: 30px;
-  }
-  #parallax-world-of-ugg .block {
-    padding: 30px;
-  }
-  #parallax-world-of-ugg .parallax-one,
-  #parallax-world-of-ugg .parallax-two,
-  #parallax-world-of-ugg .parallax-three {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-@media screen and (max-width: 479px) {
-  #parallax-world-of-ugg .block {
-    padding: 30px 15px;
-    width: 290px;
-  }
 }
 
 
@@ -276,7 +514,6 @@ p.line-p:after {
 
 /* line */
 
-
 h3.line-h1 {
   overflow: hidden;
   text-align: center;
@@ -303,22 +540,145 @@ h3.line-h1:after {
   margin-right: -50%;
 }
 
-
 .link-a .app-card-link-mask {
   position: absolute;
   width: 100%;
   height: 100%;
   display: block;
   left: 0;
-  top: 0
+  top: 0;
 }
 
 .link-a {
   position: relative;
-  border-radius: .25rem
+  border-radius: 0.25rem;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.w-25 {
+  width: 25%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-35 {
+  width: 35%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-75 {
+  width: 75%;
+}
+.w-100 {
+  width: 100%;
+}
+
+.circle {
+  text-align: center;
+  min-width: 60px;
+  border-radius: 100%;
+  padding: 10px;
+  display: flex;
+  float: left;
+  margin: 10px;
+  align-items: center;
+  color: #fff;
+}
+
+.circle:before{
+  content: "";
+  margin-top: 100%;   /* initial ratio of 1:1*/
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {
+    padding: 40px;
+    width: 620px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+    width: 420px;
+  }
+  #parallax-world-of-ugg h2 {
+    font-size: 30px;
+  }
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+  }
+  #parallax-world-of-ugg .parallax-one,
+  #parallax-world-of-ugg .parallax-two,
+  #parallax-world-of-ugg .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {
+    padding: 30px 15px;
+    width: 290px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
+  .w-480p{
+    width: 100%;
+  }
+  .width-500 {
+    width: 100%;
+  }
+  .width-600 {
+    width: 100%;
+  }
+  .width-700 {
+    width: 100%;
+  }
+  .width-800 {
+    width: 100%;
+  }
+  .bg-lg-cinza {
+    background-color: var(--cinza);
+  }
+  .bg-sm-cinza {
+    background-color: transparent;
+  }
+  .bloco_texto-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+  }
+  .bloco_texto {
+    width: 100%;
+    border-radius: 3px;
+  }
+  .imagem_candelaria {
+    width: 100%;
+    margin: 1.5em 0;
+  }
+  #parallax-world-of-ugg .parallax-candelaria-text {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 100vh !important;
+    background: url(/assets/img/teste.png);
+    /* background-attachment: fixed; */
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50px bottom;
+  }
   #parallax-world-of-ugg #logocandelaria {
     background-image: url("/assets/img/candelaria2.svg");
     background-size: 80%;
@@ -350,9 +710,89 @@ h3.line-h1:after {
     letter-spacing: 0.1em;
     text-decoration: none;
     transition: opacity 0.3s;
-}
-}
-
-.text-justify {
-  text-align: justify !important;
+  }
+  .fs-md-10 {
+    font-size: 10pt !important;
+  }
+  .fs-md-11 {
+    font-size: 11pt !important;
+  }
+  .fs-md-12 {
+    font-size: 12pt !important;
+  }
+  .fs-md-13 {
+    font-size: 13pt !important;
+  }
+  .fs-md-14 {
+    font-size: 14pt !important;
+  }
+  .fs-md-15 {
+    font-size: 15pt !important;
+  }
+  .fs-md-16 {
+    font-size: 16pt !important;
+  }
+  .fs-md-17 {
+    font-size: 17pt !important;
+  }
+  .fs-md-18 {
+    font-size: 18pt !important;
+  }
+  .fs-md-19 {
+    font-size: 19pt !important;
+  }
+  .fs-md-20 {
+    font-size: 20pt !important;
+  }
+  .fs-md-21 {
+    font-size: 21pt !important;
+  }
+  .fs-md-22 {
+    font-size: 22pt !important;
+  }
+  .fs-md-23 {
+    font-size: 23pt !important;
+  }
+  .fs-md-24 {
+    font-size: 24pt !important;
+  }
+  .fs-md-25 {
+    font-size: 25pt !important;
+  }
+  .fs-md-26 {
+    font-size: 26pt !important;
+  }
+  .fs-md-27 {
+    font-size: 27pt !important;
+  }
+  .fs-md-28 {
+    font-size: 28pt !important;
+  }
+  .fs-md-29 {
+    font-size: 29pt !important;
+  }
+  .fs-md-30 {
+    font-size: 30pt !important;
+  }
+  .fs-21 {
+    font-size: 18pt;
+  }
+  .fs-25 {
+    font-size: 19pt;
+  }
+  .fs-33 {
+    font-size: 24pt;
+  }
+  .w-md-25 {
+    width: 25% !important;
+  }
+  .w-md-50 {
+    width: 50% !important;
+  }
+  .w-md-75 {
+    width: 75% !important;
+  }
+  .w-md-100 {
+    width: 100% !important;
+  }
 }
