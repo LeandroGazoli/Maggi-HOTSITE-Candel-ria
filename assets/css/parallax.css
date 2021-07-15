@@ -82,6 +82,10 @@ body {
 	background-color: #555;
 }
 
+svg {
+  font-family: "GRENDEL BOLD";
+}
+
 a {
   text-decoration: none;
   color: #f6f6f6;
