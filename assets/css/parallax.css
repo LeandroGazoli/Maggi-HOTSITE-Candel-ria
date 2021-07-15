@@ -399,7 +399,7 @@ section {
 /**************************/
 
 #parallax-world-of-ugg #logocandelaria {
-  background-image: url("/assets/img/candelaria2.svg");
+  background-image: url("/assets/img/candelaria.png");
   background-size: 40%;
   background-attachment: fixed;
   background-position: center;
@@ -747,10 +747,15 @@ h3.line-h1:after {
     background-position: 50px bottom;
   }
   #parallax-world-of-ugg #logocandelaria {
-    background-image: url("/assets/img/candelaria2.svg");
+    background-image: url("/assets/img/candelaria.png");
     background-size: 80%;
     background-position: center center;
     background-repeat: no-repeat;
+    image-rendering:-moz-crisp-edges;          /* Firefox        */
+image-rendering:-o-crisp-edges;            /* Opera          */
+image-rendering:-webkit-optimize-contrast; /* Safari         */
+image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+-ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
   }
   #parallax-world-of-ugg #logocandelariatransparente {
     background-image: url("/assets/img/logocandeloariatrans.webp");
